@@ -683,7 +683,7 @@ int main(int argc, char* argv[])
     }
     else
     {
-        addres.sin_addr.s_addr = inet_addr("192.168.0.101");//меняй при каждом запуске компа
+        addres.sin_addr.s_addr = inet_addr("255.155.0.1");//меняй при каждом запуске компа
     }
 
 
